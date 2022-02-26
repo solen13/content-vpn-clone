@@ -75,7 +75,7 @@ body {
     width: 630px;
     height: 320px;
 
-    background-image: url(/image/Illustration1.png);
+    background-image: url(./image/Illustration1.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     object-fit: cover;
@@ -134,7 +134,7 @@ body {
 .users-image-location {
     width: 55px;
     height: 55px;
-    background-image: url(/image/user.png);
+    background-image: url(./image/user.png);
     background-repeat: no-repeat;
 
     background-size: 100% 100%;
@@ -144,7 +144,7 @@ body {
 .users-image-servers {
     width: 55px;
     height: 55px;
-    background-image: url(/image/location.png);
+    background-image: url(./image/location.png);
     background-repeat: no-repeat;
 
     background-size: 100% 100%;
@@ -154,7 +154,7 @@ body {
 .Heder-end .heder-content-users .users-image {
     width: 55px;
     height: 55px;
-    background-image: url(/image/Server.png);
+    background-image: url(./image/Server.png);
     background-repeat: no-repeat;
 
     background-size: 100% 100%;
@@ -196,7 +196,7 @@ body {
 .header-teklif .image-teklif {
     width: 508px;
     height: 412px;
-    background-image: url(/image/Illustration2.png);
+    background-image: url(./image/Illustration2.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     object-fit: cover;
@@ -349,7 +349,7 @@ body {
 .opportunity-image {
     width: 13px;
     height: 9px;
-    background-image: url(/image/Vector-tik.png);
+    background-image: url(./image/Vector-tik.png);
     margin-right: 25px;
     align-self: center;
 }
@@ -420,7 +420,7 @@ body {
 
     height: 520px;
     width: 70%;
-    background: url(/image/Vector.png);
+    background: url(./image/Vector.png);
 
 
 
@@ -437,7 +437,7 @@ body {
 
     height: 200px;
     width: 90%;
-    background: url(/image/Sponsored.png);
+    background: url(./image/Sponsored.png);
     margin-left: 10%;
 
 
