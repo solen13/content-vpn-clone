@@ -1,0 +1,621 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-color: #F6F6F6;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.header-nav-menu {
+    width: 85%;
+    height: 75px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-left: 10%;
+    margin-top: 1.3rem;
+}
+
+
+
+.header-nav-menu ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.header-nav-menu ul li {
+    margin: 20px;
+    font-size: 16px;
+    color: #4F5665;
+}
+
+.header-nav-menu.login {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.header-nav-menu .sing-in {
+    font-weight: 900;
+    padding: 10px 25px;
+}
+
+.header-nav-menu .sing-up {
+    padding: 10px 25px;
+    color: #F53855;
+    border: 1px solid #F53855;
+    border-radius: 30px;
+}
+
+.hader-banner {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.hader-banner .banner {
+    display: flex;
+    flex-flow: row;
+
+    justify-content: center;
+}
+
+.hader-banner .banner .banner-image-1 {
+    width: 630px;
+    height: 320px;
+
+    background-image: url(/image/Illustration1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+
+}
+
+.hader-banner .banner h4 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 70px;
+
+}
+
+.hader-banner .banner p {
+    width: 450px;
+}
+
+.hader-banner .banner input {
+    width: 250px;
+    height: 60px;
+    background-color: #F53855;
+    color: #F6F6F6;
+    border-radius: 20px;
+    margin-top: 100px;
+    border: none;
+    box-shadow: 1px 40px 35px 18px #f5383848;
+
+}
+
+.Heder-end {
+    width: 90%;
+    height: 100px;
+
+    margin-left: 5%;
+    margin-top: 150px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px,
+        rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+        rgba(0, 0, 0, 0.09) 0px 16px 8px,
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+.Heder-end .heder-content-users {
+    display: flex;
+    padding: 20px 25px;
+    border-right: 3px solid #EEEFF2;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.users-image-location {
+    width: 55px;
+    height: 55px;
+    background-image: url(/image/user.png);
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+    margin-right: 10px;
+}
+
+.users-image-servers {
+    width: 55px;
+    height: 55px;
+    background-image: url(/image/location.png);
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+    margin-right: 10px;
+}
+
+.Heder-end .heder-content-users .users-image {
+    width: 55px;
+    height: 55px;
+    background-image: url(/image/Server.png);
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+    margin-right: 10px;
+
+}
+
+
+.Heder-end .heder-content-users span {
+    margin-left: 10px;
+
+}
+
+.Heder-end .heder-content-users span h5 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #0B132A;
+    text-align: left;
+}
+
+.Heder-end .heder-content-users span h6 {
+    color: #4F5665;
+    font-size: 20px;
+    text-align: center;
+}
+
+.header-teklif {
+    width: 90%;
+    height: 600px;
+
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.header-teklif .image-teklif {
+    width: 508px;
+    height: 412px;
+    background-image: url(/image/Illustration2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    align-self: center;
+}
+
+.header-teklif .teklif-icerik {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+    margin-left: 169px;
+
+}
+
+.header-teklif .teklif-icerik h1 {
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 50px;
+    margin-bottom: 30px;
+    color: #0B132A;
+}
+
+.header-teklif .teklif-icerik p {
+    font-size: 16px;
+    color: #4F5665;
+    line-height: 30px;
+    margin-bottom: 20px;
+
+
+}
+
+.header-teklif .teklif-icerik ul {
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+
+}
+
+.header-teklif .teklif-icerik ul li img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+
+}
+
+
+
+.header-teklif .teklif-icerik ul li {
+    font-size: 14px;
+    color: #4F5665;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: start;
+
+
+}
+
+.opportunity-conterner {
+    display: flex;
+    flex-flow: column;
+
+    width: 90%;
+    margin-left: 5%;
+
+    height: auto;
+    justify-content: center;
+
+
+
+}
+
+.opportunity-conterner .opportunity-header {
+    margin-top: 80px;
+}
+
+.opportunity-header h1 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: 500;
+    color: #0B132A;
+    line-height: 50px;
+
+}
+
+.opportunity-header p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    text-align: center;
+
+}
+
+.opportunity-conterner .opportunity-content {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+
+}
+
+.opportunity-conterner .opportunity-content .opportunity-content-1 {
+    width: 330px;
+    height: 760px;
+
+    border-radius: 30px;
+    margin: 25px;
+    display: flex;
+    background-color: #FFFFFF;
+    flex-flow: column;
+
+    align-items: center;
+    border: 2px solid #DDDDDD;
+}
+
+
+
+.opportunity-conterner .opportunity-content .opportunity-content-1 li {
+    margin-bottom: 20px;
+
+    display: flex;
+}
+
+.opportunity-conterner .opportunity-content .opportunity-content-1 img {
+    width: 144px;
+    height: 165px;
+    align-items: center;
+    margin-top: 79px;
+
+}
+
+.opportunity-conterner .opportunity-content .opportunity-content-1 p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0B132A;
+    line-height: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+
+}
+
+.opportunity-conterner .opportunity-content .opportunity-content-1 h6 {
+    font-size: 16px;
+    color: #4F5665;
+}
+
+.opportunity-image {
+    width: 13px;
+    height: 9px;
+    background-image: url(/image/Vector-tik.png);
+    margin-right: 25px;
+    align-self: center;
+}
+
+.opportunity-content-1 .opportunity-end {
+    width: 200px;
+    height: 200px;
+
+
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+
+.opportunity-content-1 .opportunity-end div {
+
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.opportunity-content-1 .opportunity-end input {
+    margin-top: 20px;
+    width: 177px;
+    height: 45px;
+    border-radius: 20px;
+    border: 2px solid #F53838;
+    background-color: #FFFFFF;
+
+
+
+}
+
+.opportunity-content-1 .opportunity-end input:hover {
+    background-color: #F53855;
+    color: #FFFFFF;
+    box-shadow: 4px 30px 30px 2px #f5383848;
+}
+
+
+
+.distribution-contener {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 150px;
+    justify-content: center;
+}
+
+.distribution-contener h1 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #0B132A;
+    text-align: center;
+    line-height: 50px;
+}
+
+.distribution-contener h3 {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    margin-top: 20px;
+}
+
+.distribution-contener .distribution-image-1 {
+
+    height: 520px;
+    width: 70%;
+    background: url(/image/Vector.png);
+
+
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    margin-top: 155px;
+
+
+
+}
+
+.distribution-contener .distribution-image-2 {
+
+    height: 200px;
+    width: 90%;
+    background: url(/image/Sponsored.png);
+    margin-left: 10%;
+
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    margin-left: 5%;
+
+
+
+
+}
+
+.silder {
+    width: 100%;
+    height: 590px;
+
+    display: flex;
+    flex-flow: column;
+
+}
+
+.silder .silder-header {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.silder .silder-header h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #0B132A;
+    font-weight: 500;
+
+}
+
+.silder .silder-header p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    text-align: center;
+}
+
+.silder .silder-card {
+    display: flex;
+    flex-flow: row;
+}
+
+.silder .content-card {
+    width: 400px;
+    height: 230px;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+
+
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 3%;
+
+}
+
+.silder .content-card ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+
+.silder .content-card .kisi-bilgi {
+    margin-right: 60px;
+}
+
+.silder .content-card ul li:last-child {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.silder .content-card ul li:last-child p {
+    color: #0B132A;
+    margin-right: 10px;
+    font-size: 16px;
+
+}
+
+.silder .content-card .card-icerik {
+    margin: 30px;
+    color: #0B132A;
+    font-size: 16px;
+}
+
+
+
+/* 77777777777777777777777777777777777777777777777777 */
+
+.advantag-card {
+    width: 70%;
+    height: 233px;
+    background-color: #FFFFFF;
+    display: flex;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+.advantag-card-1 {
+    align-self: center;
+    margin-left: 70px;
+}
+
+.advantag-card-1 h1 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #0B132A;
+    line-height: 45px;
+}
+
+.advantag-card-1 p {
+    margin-top: 20px;
+    color: #4F5665;
+}
+
+.advantag-card input {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #F53838;
+    color: #FFFFFF;
+    align-self: center;
+    margin-left: 25%;
+    border: none;
+    box-shadow: 4px 30px 30px 2px #f5383848;
+    padding: 17px 60px;
+    font-size: 16px;
+}
+
+.Footer {
+    width: 100%;
+    height: 563px;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 150px;
+
+}
+
+
+
+
+
+
+.footers {
+    display: flex;
+    flex-flow: column;
+
+
+}
+
+.Footer .footers a {
+    padding: 15px 20px;
+    color: #4F5665;
+}
+
+.Footer .footers li {
+    padding: 15px 20px;
+
+    font-size: 18px;
+    font-weight: 900;
+    color: #0B132A;
+
+}
